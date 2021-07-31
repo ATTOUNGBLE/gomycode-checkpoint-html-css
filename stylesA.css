@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+html{
+    font-size: 16px;
+}
+
+:root{
+    --violet : #7562E0;
+    --dark : #625C7E;
+}
+a{
+    text-decoration: none;
+}
+
+   
+.navbar_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+}
+    
+.navbarright{
+    display: flex;
+}
+.navbar-item{
+    margin-left: 0.75rem;
+}
+
+.header{
+   display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.avatar-container{
+    height: 300px;
+    width: 30%;
+}
+
+.avatar{
+width: 250px;
+height: 250px;
+border-radius: 50%;
+object-fit: cover;
+
+}
+
+.header-presentation-name{
+font-size: 3.5rem;
+}
+
+.btn{
+    width: 30%;
+    height: 50px;
+    cursor: pointer;
+    background-color: white;
+    color: var(--dark);
+    border: 4px solid var(--violet);
+}
+   
+.logo{
+   
+    margin-left: 15px;
+}
+
+.image-logo{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.experience-bloc{
+    display: flex;
+   justify-content: space-between;
+    margin-top: 60px
+}
+
+.experience-bloc-left{
+    width: 20%;
+    margin-left: 1.15rem;
+    
+}
+
+.experience-bloc-left h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: var(--violet);
+}
+
+.experience-bloc-left p{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.experience-bloc-right{
+    width: 70%;
+    
+}
+
+.experience-bloc-right h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--violet);
+}
+
+.experience-bloc-right-product{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 35px;
+}
+
+.experience-bloc-product{
+    width: 30%;
+    height: 250px;
+    border: 2px solid #f7f6f9;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 0px 12px -5px rgb(0 0 0 / 18%);
+    margin-right: 30px;
+    padding: 25px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.experience-bloc-product div{
+    position: absolute;
+    bottom: 70px;
+}
+
+.experience-bloc-product i{
+    color: rgb(117, 5, 117);
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.fa,.fas{
+    font-weight: 900;
+}
+
+
